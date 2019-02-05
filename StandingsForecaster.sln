@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandingsForecaster", "StandingsForecaster\StandingsForecaster.csproj", "{1AD72DDF-A30B-4512-844D-424A29ABDDC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StandingsForecaster", "StandingsForecaster\StandingsForecaster.csproj", "{1AD72DDF-A30B-4512-844D-424A29ABDDC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandingsForecaster.Tests", "StandingsForecaster.Tests\StandingsForecaster.Tests.csproj", "{9C6BFDCF-7A12-4B0F-9D92-7452550B93DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandingsForecaster.Domain", "StandingsForecaster.Domain\StandingsForecaster.Domain.csproj", "{D7CB4B31-CC65-4D80-A870-AA2D26D89336}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{1AD72DDF-A30B-4512-844D-424A29ABDDC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AD72DDF-A30B-4512-844D-424A29ABDDC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AD72DDF-A30B-4512-844D-424A29ABDDC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6BFDCF-7A12-4B0F-9D92-7452550B93DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6BFDCF-7A12-4B0F-9D92-7452550B93DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6BFDCF-7A12-4B0F-9D92-7452550B93DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6BFDCF-7A12-4B0F-9D92-7452550B93DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7CB4B31-CC65-4D80-A870-AA2D26D89336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7CB4B31-CC65-4D80-A870-AA2D26D89336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7CB4B31-CC65-4D80-A870-AA2D26D89336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7CB4B31-CC65-4D80-A870-AA2D26D89336}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

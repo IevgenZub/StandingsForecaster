@@ -6,7 +6,11 @@ namespace StandingsForecaster
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome to Standing Forecaster!");
+
+            // TODO
+
+            Console.ReadLine();
         }
     }
 }
