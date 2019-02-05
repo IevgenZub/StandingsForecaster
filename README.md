@@ -1,1 +1,1 @@
-# StandingsForecaster
+# Standings Forecaster
